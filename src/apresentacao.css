@@ -30,26 +30,30 @@ purple-dark-extra: #46184F
 
 */
 
+/* Header Logo */
+
+#logo .standard-logo img {
+    height: 60px;
+    margin: 10px;
+}
+
+/* Header Mega Menu Subtitle   */
+
+header .mega-menu-title .subtitle-curso {
+    padding: 20px !important;
+    color: #ffffff;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+
+
 /* Background */
 
 #slider.gradient-bg {
-    background-image: url(/images/lowpoly.png);
-    
-    /* background: linear-gradient(-45deg, #1d9178, #006fb5, #9441a0);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite; */
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    background-image: url(images/lowpoly.png);
 }
 
 #slider .heading-block h3 {
