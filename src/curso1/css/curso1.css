@@ -38,6 +38,13 @@ h1 > span:not(.nocolor):not(.badge), h2 > span:not(.nocolor):not(.badge), h3 > s
     color: var(--green-regular);
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #ffffff;
+    content: "/";
+}
+
 /* Section background colors */
 
 .section {
@@ -106,7 +113,7 @@ h1 > span:not(.nocolor):not(.badge), h2 > span:not(.nocolor):not(.badge), h3 > s
 
 .feature-box.fbox-effect.reflect-box.curso1 {
     border: 2px dotted var(--green-regular);
-    border-radius: 6px 50px 6px 50px;
+    border-radius: 6px;
     padding: 20px 20px 20px 100px;
     background-color: #ffffff;
     box-shadow: 10px 10px 0px var(--green-light);
@@ -132,7 +139,7 @@ h1 > span:not(.nocolor):not(.badge), h2 > span:not(.nocolor):not(.badge), h3 > s
         left: calc(50% - 32px);
     }
     .feature-box.fbox-effect.reflect-box.curso1 {
-        padding: 60px 10px 10px 10px;
+        padding: 60px 20px 20px 20px;
     }
 }
 

@@ -1101,11 +1101,11 @@ var SEMICOLON = SEMICOLON || {};
 
 		fullWidthMenu: function(){
 			if( $body.hasClass('stretched') ) {
-				if( $header.find('.container-fullwidth').length > 0 ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width() - 120 }); }
-				if( $header.hasClass('full-header') ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width() - 60 }); }
+				if( $header.find('.container-fullwidth').length > 0 ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width()  }); }
+				if( $header.hasClass('full-header') ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width()  }); }
 			} else {
-				if( $header.find('.container-fullwidth').length > 0 ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width() - 120 }); }
-				if( $header.hasClass('full-header') ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width() - 80 }); }
+				if( $header.find('.container-fullwidth').length > 0 ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width()  }); }
+				if( $header.hasClass('full-header') ) { $('.mega-menu .mega-menu-content').css({ 'width': $wrapper.width()  }); }
 			}
 		},
 
@@ -1725,7 +1725,7 @@ var SEMICOLON = SEMICOLON || {};
 						$(this).css({ top: ( scapSliderHeight + 100 - scapHeight ) / 2 + 'px' });
 					}
 				} else {
-					$(this).css({ top: ( scapSliderHeight - scapHeight ) / 2 + 'px' });
+					$(this).css({ top: ( scapSliderHeight - 50 - scapHeight ) / 2 + 'px' });
 				}
 			});
 		},

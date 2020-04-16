@@ -1870,3 +1870,65 @@ body.side-panel-open .body-overlay {
 }
 
 body.side-panel-open:not(.device-xs):not(.device-sm):not(.device-md) .body-overlay:hover { cursor: url('images/icons/close.png') 15 15, default; }
+
+/* CUSTOM CSS */
+
+/* Header Logo */
+
+#primary-menu {
+    float: left;
+}
+
+#header.full-header #primary-menu > ul {
+    float: left;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: none
+}
+
+/* Header Mega Menu Subtitle   */
+#header.full-header #primary-menu ul li.mega-menu .mega-menu-content {
+    margin: 0 !important;
+    /* box-shadow: 0px 4px 8px rgba(0,0,0,0.3); */
+}
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column {
+    padding: 20px 15px;
+}
+
+header .mega-menu-title .subtitle-curso {
+    padding: 10px 20px !important;
+    color: #ffffff;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#primary-menu ul li .mega-menu-content.style-2 ul li > a {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+#primary-menu .mega-menu .aula-nome span {
+    display: inline-block;
+    color: var(--green-regular);
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+#primary-menu ul li .mega-menu-content.style-2 ul li > a:hover {
+    padding-left: 5px;
+}
+
+#primary-menu ul li .mega-menu-content.style-2 ul li > a:hover .aula-nome span {
+    padding: 5px;
+    line-height: 1;
+    color: #ffffff;
+    background-color: var(--green-regular);
+    border-radius: 2px;
+    transition: all .2s ease-in-out;
+}
