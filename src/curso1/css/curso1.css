@@ -15,9 +15,9 @@ a:hover {color: var(--green-dark);}
     color: var(--green-regular);
 }
 
-#primary-menu ul ul.curso1 li:hover > a {
-    color: var(--green-regular);
-}
+/* #primary-menu ul ul.curso1 li:hover > a {
+    color: var(--purple-regular);
+} */
 
 #primary-menu ul li .mega-menu-content.style-2 ul.curso1 li > a:hover .aula-nome span {
     background-color: var(--green-regular);
