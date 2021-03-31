@@ -21,9 +21,9 @@ ul, ol {list-style-position:inside;}
     color: var(--blue-regular);
 }
 
-#primary-menu ul ul.curso2 li:hover > a {
+/* #primary-menu ul ul.curso2 li:hover > a {
     color: var(--blue-regular);
-}
+} */
 
 #primary-menu ul li .mega-menu-content.style-2 ul.curso2 li > a:hover .aula-nome span {
     background-color: var(--blue-regular);
