@@ -148,10 +148,10 @@ h1 > span:not(.nocolor):not(.badge), h2 > span:not(.nocolor):not(.badge), h3 > s
     left: 20px;
 }
 
-.fbox-effect:hover .fbox-icon i {
+/* .fbox-effect:hover .fbox-icon i {
     background-color: var(--blue-dark);
     color: #FFF;
-}
+} */
 
 @media (max-width: 576px) {
     .reflect-box.curso1 .fbox-icon {
@@ -308,12 +308,13 @@ body:not(.device-touch) .button {
     margin: 0 0px 0 10px;
 }
 
-.list-box:hover i {
+.list-box i {
     background-color: var(--blue-regular);
-    color: #FFF;
+    color: var(--blue-light-extra);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     box-shadow: 0 0 0 rgba(0,0,0,0.2);
-    transform: translateX(-15px);
+    /*transform: translateX(-15px); */
+    cursor:default;
 }
 
 .list-box h5 {
@@ -324,7 +325,7 @@ body:not(.device-touch) .button {
 
 .list-box.order-list {
     padding: 5px 10px;
-    margin: 0 10px 10px;
+    margin: 0 10px 20px;
 }
 
 .list-box.order-list .i-rounded, .i-circled, .i-bordered {
@@ -332,20 +333,20 @@ body:not(.device-touch) .button {
     height: 30px !important;
     line-height: 30px !important;
     font-size: 20px;
-    color: var(--blue-dark);
+    color: var(--blue-light-extra);
 }
 
 .list-box.order-list i span {
     font-family: 'Lato', sans-serif;
 }
 
-.list-box.order-list:hover i {
+/* .list-box.order-list:hover i {
     background-color: var(--blue-regular);
     color: #FFF;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     box-shadow: 0 0 0 rgba(0,0,0,0.2);
     transform: translateX(-15px);
-}
+} */
 
 /* Flip Card */
 
